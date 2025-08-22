@@ -79,7 +79,7 @@ def process_images_comprehensive(input_folder, output_folder, target_size=(300, 
 
 # 使用示例
 if __name__ == "__main__":
-    input_dir = r"C:\Users\wxx\Desktop\picture_processing\input_image"  # 替换为你的输入文件夹路径
-    output_dir =  r"C:\Users\wxx\Desktop\picture_processing\out_image"  # 替换为你的输出文件夹路径
+    input_dir = r"C:\Users\wxx\Desktop\picture_processing\input_image"  
+    output_dir =  r"C:\Users\wxx\Desktop\picture_processing\out_image"  
 
     process_images_comprehensive(input_dir, output_dir, (800, 400))
